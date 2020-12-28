@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: employeeapp
+  datasource:
+     url: jdbc:mysql://mydb.ci33ampz5kfw.us-east-1.rds.amazonaws.com:3306/devdb
+     username: devdb
+     password: password2020
+  jpa:
+     hibernate: 
+       ddl-auto: create
+       show-sql: true
+       database-platform: org.hibernate.dialect.MySQL5Dialect
+       dialect: org.hibernate.dialect.MySQL5Dialect
+
+server:
+  port: 5000
+  
+   
